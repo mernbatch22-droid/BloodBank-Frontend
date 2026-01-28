@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./SignUp.css"; // reuse same auth css
 import { useNavigate } from "react-router-dom";
-import { resetPasswordService } from "../services/operations/resetPassword";
+import { resetPasswordService } from "../services/operations/ResetPassword";
 
 const ForGotPasswordForm = () => {
   const navigate = useNavigate();
