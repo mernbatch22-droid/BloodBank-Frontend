@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import "./donate.css"; // optional CSS file
+import "./Donate.css"; // optional CSS file
 import { AllInfoOfDonor } from "../services/operations/ViewDonors";
 
 const ViewAllDonars = () => {
@@ -46,3 +46,4 @@ const ViewAllDonars = () => {
 };
 
 export default ViewAllDonars;
+
